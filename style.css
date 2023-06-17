@@ -1,3 +1,18 @@
+
+li {
+    list-style: none;
+    display: inline;
+    margin:10px;
+    color:white;
+}
+
+#logo {
+    color:white;
+    font-weight: 900;
+    font-size: large;
+}
+
+
 .container {
     display: flex;
     width: 980px;
@@ -10,6 +25,19 @@
     background-color:#515A67;
     width: 980px;
     height:100px;
+}
+
+.logo {
+    border: 1px solid red;
+    display: flex;
+    width: 490px;
+    justify-content: center;
+}
+
+.links {
+    border: 1px solid blue;
+    display: flex;
+    width: 490px;
 }
 
 .container2 {
