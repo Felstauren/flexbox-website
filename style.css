@@ -1,4 +1,10 @@
 
+.break::after {
+    content: '\A';
+    white-space: pre;
+}
+
+
 p {
     color:white;
 }
@@ -18,11 +24,26 @@ li {
     font-size: 20px;
 }
 
+#placeholder {
+    align-self: center;
+}
+
 .Headline {
     font-size: 30px;
     font-weight: bolder;
     line-height: 42px;
 }
+
+.Headline1 {
+    text-align: center;
+    color:#515A67;
+    width: 980px;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    top:330px;
+}
+
 
 .space {
     width: 130px;
@@ -87,12 +108,53 @@ li {
 .placeholder {
     display: flex;
     width: 490px;
+    background-color: #D3D3D3;
+    margin:10px;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    right: 50px;
+    top: 120px; 
+    text-align: center;
+    color:white;
+    justify-content: center;
 }
 
 .container3 {
     display: flex;
     width: 980px;
     height:300px;
+}
+
+.box {
+    display: flex;
+    gap:20px;
+    position: absolute;
+    top:390px;
+    left:300px
+}
+
+.blue_box {
+    height: 100px;
+    width: 100px;
+    border:#59a8f6 2px solid;
+    border-radius: 5%;
+    align-self: center;
+}
+
+.text_box {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:490px;
+    left:300px;
+    gap:15px
+}
+
+.text1 {
+    color:gray;
+    font-size: small;
+    text-align: center;
 }
 
 .container4 {
